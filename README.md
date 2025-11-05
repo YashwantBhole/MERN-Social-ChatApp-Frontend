@@ -3,17 +3,19 @@
 A real-time group chat app built with ⚛️ React, 🟩 Node.js/Express, ⚡ Socket.io, 🔥 Firebase Cloud Messaging (FCM), and ☁️ Cloudinary.
 It features instant text & image sharing, smart notifications, and a sleek responsive UI — all powered by the MERN stack + Cloud services.
 
-✨ Features
+---
 
-✅ Live Chat — Real-time messaging powered by Socket.io
-🖋️ Text Messages — Clean and responsive chat bubbles
-🖼️ Image Uploads — Preview, download, and delete (up to 5 MB)
-🔔 Push Notifications — Firebase Cloud Messaging (FCM) integration
-☁️ Cloud Storage — Secure image hosting with Cloudinary
-🗑️ Message Deletion — Remove your own texts or images anytime
-👋 User Logout — Simple session handling
-📱 Responsive UI — Built with Tailwind CSS for all devices
-🕒 Hover Details — Timestamp + delete icon shown on hover
+## 🌟 Features
+
+- ✅ Live Chat — Real-time messaging powered by Socket.io
+- 🖋️ Text Messages — Clean and responsive chat bubbles
+- 🖼️ Image Uploads — Preview, download, and delete (up to 5 MB) 
+- 🔔 Push Notifications — Firebase Cloud Messaging (FCM) integration
+- ☁️ Cloud Storage — Secure image hosting with Cloudinary
+- 🗑️ Message Deletion — Remove your own texts or images anytime
+- 👋 User Logout — Simple session handling
+- 📱 Responsive UI — Built with Tailwind CSS for all devices
+- 🕒 Hover Details — Timestamp + delete icon shown on hover
 
 ---
 

@@ -2,7 +2,7 @@ import React, { useEffect, useState, useRef } from "react";
 import io from "socket.io-client";
 import axios from "axios";
 import { FiTrash2 } from 'react-icons/fi'
-import {FaGithub} from 'react-icons/fa'
+import { FaGithub } from 'react-icons/fa'
 import { initFirebase, requestAndSaveToken } from "./firebase";
 
 const API = import.meta.env.VITE_API || "http://localhost:4000";
@@ -187,8 +187,8 @@ export default function App() {
                       </div>
                     )}
 
-                    {/* show createdAt + delete icon (for mine) on hover */}
-                    <div className={`flex items-center justify-between mt-1 text-[10px] text-gray-400 opacity-0 group-hover:opacity-100 transition-opacity duration-150`}>
+                    {/* show createdAt + delete icon (for mine) */}
+                    <div className={`flex items-center justify-between mt-1 text-[10px] text-gray-400 opacity-100 sm:opacity-0 sm:group-hover:opacity-100 transition-opacity duration-150`}>
                       <span>{timeAgo(m.createdAt)}</span>
                       {mine && (
                         <button onClick={() => handleDelete(m)} className="text-red-500 cursor-pointer">
@@ -196,6 +196,7 @@ export default function App() {
                         </button>
                       )}
                     </div>
+
 
                   </div>
                 </div>

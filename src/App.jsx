@@ -116,32 +116,46 @@ export default function App() {
     setMessages([]);
   };
 
-  if (!email) {
-    return (
-      <div className="min-h-screen flex items-center justify-center bg-gray-50 p-4">
-        <div className="w-full max-w-md bg-white p-6 rounded-lg shadow mb-20">
-          <h2 className="text-lg font-semibold mb-4">Enter name / email</h2>
-          <input
-            className="w-full border p-2 rounded mb-3 text-sm"
-            placeholder="your name or email"
-            value={name}
-            onChange={(e) => setName(e.target.value)}
-          />
-          <button
-            className="w-full bg-blue-600 text-white py-2 rounded text-sm cursor-pointer"
-            onClick={() => {
-              if (!name) return alert("Enter a name");
-              localStorage.setItem("email", name);
-              localStorage.setItem("name", name);
-              setEmail(name);
-            }}
-          >
-            Enter Chat
-          </button>
+ if (!email) {
+  return (
+    <div className="min-h-screen flex items-center justify-center bg-gray-50 p-4">
+      <div className="w-full max-w-md bg-white p-6 rounded-lg shadow mb-20">
+        <h2 className="text-lg font-semibold mb-2">Demo Sign-In</h2>
+
+        <p className="text-xs text-gray-500 mb-3">
+          This preview highlights <strong>real-time chat (Socket.IO)</strong>, 
+          <strong> FCM push alerts</strong> and <strong>image upload</strong>.  
+          Authentication is intentionally minimal (localStorage only) to focus on core functionality.
+        </p>
+
+        <div className="bg-blue-50 border border-blue-100 rounded-md p-2 mb-4">
+          <p className="text-[11px] text-blue-900">
+            In production, this will be replaced with secure <strong>JWT/OAuth2 authentication</strong>.
+          </p>
         </div>
+
+        <input
+          className="w-full border p-2 rounded mb-3 text-sm"
+          placeholder="Enter name / email"
+          value={name}
+          onChange={(e) => setName(e.target.value)}
+        />
+
+        <button
+          className="w-full bg-blue-600 text-white py-2 rounded text-sm hover:bg-blue-700"
+          onClick={() => {
+            if (!name) return alert("Enter a name");
+            localStorage.setItem("email", name);
+            localStorage.setItem("name", name);
+            setEmail(name);
+          }}
+        >
+          Enter Demo Chat
+        </button>
       </div>
-    );
-  }
+    </div>
+  );
+}
 
   return (
     <div className="min-h-screen bg-slate-50 p-3 md:p-6">

@@ -5,7 +5,7 @@ It features instant text & image sharing, smart notifications, and a sleek respo
 
 ---
 
-## 🌟 Features
+## 🌟 Features 
 
 - ✅ Live Chat — Real-time messaging powered by Socket.io
 - 🖋️ Text Messages — Clean and responsive chat bubbles

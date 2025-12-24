@@ -2,9 +2,11 @@
 
 A real-time group chat app built with ⚛️ React, 🟩 Node.js/Express, ⚡ Socket.io, 🔥 Firebase Cloud Messaging (FCM), and ☁️ Cloudinary.
 It features instant text & image sharing, smart notifications, and a sleek responsive UI — all powered by the MERN stack + Cloud services.
+
 ---
 ## 🔗 Backend Repository
 👉 [Social Chat App Backend](https://github.com/YashwantBhole/MERN-Social-ChatApp-Backend)
+---
 
 ## 🌟 Features 
 

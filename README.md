@@ -6,6 +6,7 @@ It features instant text & image sharing, smart notifications, and a sleek respo
 ---
 
 👉 [Social Chat App Backend Repository](https://github.com/YashwantBhole/MERN-Social-ChatApp-Backend)
+---
 
 ## 🌟 Features 
 
